@@ -1,0 +1,140 @@
+@import url(./reset.css);
+:root {
+	--main-color: #263238;
+}
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+.nav {
+	display: flex;
+}
+.logo-text {
+	margin-top: 57px;
+	color: #000;
+	font-family: Poppins;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-right: 253px;
+}
+.nav-menu {
+	display: flex;
+}
+/*.nav-item:first-child {
+	margin-left: 100px;
+}*/
+.nav-item {
+	margin-top: 71px;
+}
+.nav-link {
+	color: var(--main-color);
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-right: 55px;
+}
+.logo-text > span {
+	color: #939393;
+}
+.lst {
+	margin-right: 435px;
+}
+.nav-btn {
+	border: solid;
+	border-radius: 5px;
+	margin-top: 55px;
+	color: #000;
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.nav-btn:hover {
+	transition: 0.5s;
+	border: solid #263238;
+	border-radius: 5px;
+	color: #FFF;
+	background-color: #263238;
+}
+.nav-btn-txt {
+	margin-top: 17px;
+	margin-bottom: 17px;
+	margin-right: 57px;
+	margin-left: 57px;
+}
+
+/* Основная страница */
+
+
+.main-text {
+	color: #000;
+	font-family: Poppins;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 80px;
+	max-width: 386px;
+	margin-top: 101px;
+}
+.desk-text {
+	color: #8F95A5;
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 40px;
+	max-width: 632px;
+}
+.main-btn {
+	color: #FFF;
+	font-family: Poppins;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 32px 117px;
+	background-color: #263238;
+	border: solid #263238;
+	border-radius: 15px;
+}
+.main-btn:hover {
+	transition: 0.5s;
+	color: #000;
+	background-color: #FFF;
+}
+.main-btn-text {
+	margin-top: 93px;
+}
+.main-img {
+}
+.learn-inner {
+	display: flex;
+	justify-content: space-between;
+}
+.learn-content {
+	display: flex;
+}
+.main-title {
+	display: flex;
+}
+.main-light {
+	width: 105.235px;
+	height: 105.235px;
+	transform: rotate(5.442deg);
+	flex-shrink: 0;
+	margin-top: -200px;
+	margin-left: -200px;
+}
+.main-img {
+	margin-left: 420px;
+	margin-top: 50px;
+	width: 661px;
+	height: 661px;
+	flex-shrink: 0;
+}
